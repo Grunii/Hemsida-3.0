@@ -21,7 +21,7 @@ body {
     
   }
   body.container-hemsida{
-     background-image: url(https://w.wallhaven.cc/full/yj/wallhaven-yjm67g.jpg);
+     background-image:url(/bilder/MAINPAGE-min.jpg);
     height: 100%; 
     background-position: center ;
     background-attachment: fixed;
@@ -150,20 +150,15 @@ body {
     align-items: center;
     text-align: center;
     
-    
   }
   .låda{
     height: auto;
      display: flex;
      justify-content: center;
      align-items: center;
-     margin-top: 10%;
-     
-    
-    
-    
+     margin-top: 2%;
   }
-.article{
+  .article{
   width: 500px;
   font-family: sans-serif;
   font-size: large;
@@ -174,13 +169,34 @@ body {
   text-align: center;
   color: aliceblue;
   background: -webkit-linear-gradient(#9392a8,#9514cf,#d63cb0,#89989c)
+  }
+.article2{
   
-  
-  
+      width: 500px;
+      font-family: sans-serif;
+      font-size: large;
+      border-radius: 40px;
+      padding: 50px;
+      
+      margin: 0;
+      text-align: center;
+      color: aliceblue;
+      background: -webkit-linear-gradient(#7ea9de,#143ccf,#633cd6,#a3b7cd)
 }
-
-
-
+.article3{
+  
+  width: 500px;
+  font-family: sans-serif;
+  font-size: large;
+  border-radius: 40px;
+  padding: 50px;
+  
+  margin: 0;
+  text-align: center;
+  color: aliceblue;
+  background: -webkit-linear-gradient(#dec77e,#cf4d14,#633cd6,#a3b7cd)
+}
+    
    .greger{
      color: aliceblue;
    }
@@ -198,4 +214,6 @@ body {
    .nav-link{
      color: aliceblue;
    }
+   
+
  
