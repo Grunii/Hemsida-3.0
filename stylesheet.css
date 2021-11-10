@@ -7,21 +7,23 @@
 body {
     height: 100vh;
     margin: 0;
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
     font-size: medium;
     font-weight: 100;
-    /* background-image: url(wallhaven-g7d9kl.png);
-    height: 100%; 
-    background-position: center ;
-    background-repeat: repeat;
-    
-    background-size: cover; */
+   
     background-color: #181123;
      
     
   }
   body.container-hemsida{
      background-image:url(/bilder/MAINPAGE-min.jpg);
+    height: 100%; 
+    background-position: center ;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  body.container-analys{
+    background-image:url(/bilder/MAINPAGE-min.jpg);
     height: 100%; 
     background-position: center ;
     background-attachment: fixed;
@@ -38,29 +40,6 @@ body {
   
 }
 
-  
-.content{
-  color: black;
-  width: 20%;
-  word-wrap: wrap;
-  text-align: center;
-     
-     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-     font-size: large;
-     
-  
-}
-.header{
-  color: black;
-  width: 20%;
-  word-wrap: wrap;
-  text-align: center;
- 
-     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-     font-size: xx-large;
-     
-}
-   
     input[type=text], select, textarea {
       width: 100%;
       padding: 12px;
@@ -157,14 +136,22 @@ body {
      justify-content: center;
      align-items: center;
      margin-top: 2%;
+     
+     
   }
+
+  /* @media all and (max-widht: 480px){
+    .låda{
+      display: none;
+    }
+  } */
   .article{
   width: 500px;
   font-family: sans-serif;
   font-size: large;
   border-radius: 40px;
   padding: 50px;
-  
+ 
   margin: 0;
   text-align: center;
   color: aliceblue;
@@ -196,6 +183,18 @@ body {
   color: aliceblue;
   background: -webkit-linear-gradient(#dec77e,#cf4d14,#633cd6,#a3b7cd)
 }
+.article4{
+  width: 500px;
+  font-family: sans-serif;
+  font-size: large;
+  border-radius: 40px;
+  padding: 50px;
+  
+  margin: 0;
+  text-align: center;
+  color: aliceblue;
+  background: -webkit-linear-gradient(#7ededa,#cf14b7,#633cd6,#cda3ca)
+}
     
    .greger{
      color: aliceblue;
@@ -214,6 +213,32 @@ body {
    .nav-link{
      color: aliceblue;
    }
-   
 
- 
+
+   
+.h2,h2{
+  font-size: 2rem;
+}
+
+.footer{
+  height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+.footer-content{
+  margin-top: 3rem;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+}
+
+
+ @media (max-width:480px) {
+ img{
+  display: none;
+}
+ }
