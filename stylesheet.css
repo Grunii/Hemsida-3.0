@@ -203,6 +203,18 @@ body {
   color: aliceblue;
   background: -webkit-linear-gradient(#7ededa,#cf14b7,#633cd6,#cda3ca)
 }
+
+.article5{
+  width: 80%;
+ 
+  font-size: large;
+  border-radius: 40px;
+  padding: 50px;
+  
+  margin: 0;
+  text-align: center;
+  color: aliceblue;
+}
     
  
 
@@ -223,10 +235,10 @@ body {
 
    
 .h2,h2{
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .h1,h1{
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 
 .footer{
