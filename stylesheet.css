@@ -1,0 +1,253 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    /* font-family: sans-serif; */
+    /* font-size: medium; */
+   font-family: var(--bs-font-sans-serif);
+    font-weight: 100;
+   
+    background-color: #181123;
+     
+    
+  }
+  body.container-hemsida{
+     background-image:url(/bilder/MAINPAGE-min.jpg);
+    height: 100%; 
+    background-position: center ;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  body.container-analys{
+    background-image:url(/bilder/MAINPAGE-min.jpg);
+    height: 100%; 
+    background-position: center ;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  #nav-bar { 
+    top: 0;
+    z-index: 10;
+     
+  }
+  
+.kontakt{
+  color: aliceblue;
+  
+}
+
+    input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+      
+    }
+
+    input[type=tel], select,textarea{
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    
+
+    }
+    input[type=email], select,textarea{
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+
+    }
+    input[type=meddelande], select,textarea{
+      width: 100%;
+      height: 200%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+      
+    }
+    
+    input[type=submit] {
+      background-color: #04AA6D;
+      color: white;
+      padding: 12px 20px;
+      
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    .container {
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+   
+   .bg{
+   
+     
+     text-shadow: -5px 0 black;
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     font-size:2vw;
+    
+     height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;   
+     color:aliceblue
+  } 
+  
+  .brödtext{
+    margin-top: 3rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+  .låda{
+    
+    height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 2%;
+    
+     
+     
+  }
+
+  /* @media all and (max-widht: 480px){
+    .låda{
+      display: none;
+    }
+  } */
+  .article{
+  width:80%;
+  
+  font-size: large;
+  border-radius: 40px;
+  padding: 50px;
+ 
+  margin: 0;
+  text-align: center;
+  color: aliceblue;
+  background: -webkit-linear-gradient(#9392a8,#9514cf,#d63cb0,#89989c)
+  }
+  .article,img,iframe{
+    max-width: 80%;
+    
+  }
+.article2{
+  
+      width: 80%;
+     
+      font-size: large;
+      border-radius: 40px;
+      padding: 50px;
+      
+      margin: 0;
+      text-align: center;
+      color: aliceblue;
+      background: -webkit-linear-gradient(#7ea9de,#143ccf,#633cd6,#a3b7cd)
+}
+.article3{
+  
+  width: 80%;
+  max-width: 80%;
+  
+  border-radius: 40px;
+  padding: 50px;
+  
+  margin: 0;
+  text-align: center;
+  color: aliceblue;
+  background: -webkit-linear-gradient(#dec77e,#cf4d14,#633cd6,#a3b7cd)
+  
+}
+.article4{
+  width: 80%;
+ 
+  font-size: large;
+  border-radius: 40px;
+  padding: 50px;
+  
+  margin: 0;
+  text-align: center;
+  color: aliceblue;
+  background: -webkit-linear-gradient(#7ededa,#cf14b7,#633cd6,#cda3ca)
+}
+    
+ 
+
+   .tackmail{
+    text-shadow: -5px 0 black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:10vw;
+    position: fixed;
+    top: 30%;
+    left: 10%;
+    text-align: center;
+    color:aliceblue
+   }
+   .nav-link{
+     color: aliceblue;
+   }
+
+
+   
+.h2,h2{
+  font-size: 1.5rem;
+}
+.h1,h1{
+  font-size: 2rem;
+}
+
+.footer{
+  height: auto;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+.footer-content{
+  margin-top: 3rem;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: aliceblue;
+}
+
+
+ /* @media (max-width:480px) {
+ img,iframe{
+  display: none;
+}
+ } */
